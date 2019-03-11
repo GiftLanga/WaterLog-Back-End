@@ -9,13 +9,8 @@ namespace WaterLog_Backend.Models
     public class ReadingsEntry
     {
         public int Id { get; set; }
-
-        public int SenseID { get; set; }
-        [ForeignKey("SenseID")]
-        public MonitorsEntry MonitorsEntry { get; set; }
+        public int MonitorsId { get; set; }
         public double Value { get; set; }
-        public DateTime TimesStamp { get; set; }
-
-       
+        public DateTime TimesStamp { get; set; } 
     }
 }

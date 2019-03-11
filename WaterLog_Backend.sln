@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaterLog_Backend", "WaterLog_Backend\WaterLog_Backend.csproj", "{C822C808-B51C-48BC-9717-D455E2C57B7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting", "UnitTesting\UnitTesting.csproj", "{C691194C-8470-4B1F-8176-A75E90683BDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTesting", "UnitTesting\UnitTesting.csproj", "{C691194C-8470-4B1F-8176-A75E90683BDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckValues", "CheckValues\CheckValues.csproj", "{2B58AF73-69A3-41F3-A2AB-DE2D92BB1FC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailNotifications", "EmailNotifications\EmailNotifications.csproj", "{B0048A14-3743-41BA-BA69-8B3930F9FFB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C691194C-8470-4B1F-8176-A75E90683BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C691194C-8470-4B1F-8176-A75E90683BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C691194C-8470-4B1F-8176-A75E90683BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B58AF73-69A3-41F3-A2AB-DE2D92BB1FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B58AF73-69A3-41F3-A2AB-DE2D92BB1FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B58AF73-69A3-41F3-A2AB-DE2D92BB1FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B58AF73-69A3-41F3-A2AB-DE2D92BB1FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0048A14-3743-41BA-BA69-8B3930F9FFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0048A14-3743-41BA-BA69-8B3930F9FFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0048A14-3743-41BA-BA69-8B3930F9FFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0048A14-3743-41BA-BA69-8B3930F9FFB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

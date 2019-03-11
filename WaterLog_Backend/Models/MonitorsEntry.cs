@@ -12,7 +12,7 @@ namespace WaterLog_Backend.Models
         public double Max_flow { get; set; }
         public double Long { get; set; }
         public double Lat { get; set; }
-        public string Status { get; set; }
-       
+        public string Status { get; set; } 
+        public int FaultCount { get; set; }
     }
 }

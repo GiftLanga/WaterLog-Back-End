@@ -11,7 +11,6 @@ namespace WaterLog_Backend.Models
         public int Id { get; set; }
         public int SenseIDOut { get; set; }
         public int SenseIDIn { get; set; }
-
-
+        public int FaultCount { get; set; }
     }
 }

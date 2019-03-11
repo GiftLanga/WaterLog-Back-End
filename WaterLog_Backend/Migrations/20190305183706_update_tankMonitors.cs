@@ -2,19 +2,19 @@
 
 namespace WaterLog_Backend.Migrations
 {
-    public partial class Migration2 : Migration
+    public partial class update_tankMonitors : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<int>(
-                name: "SenseIDIn",
-                table: "Segments",
+                name: "connectedMonitorID",
+                table: "TankMonitors",
                 nullable: false,
                 defaultValue: 0);
 
             migrationBuilder.AddColumn<int>(
-                name: "SenseIDOut",
-                table: "Segments",
+                name: "connectedMonitorType",
+                table: "TankMonitors",
                 nullable: false,
                 defaultValue: 0);
         }
@@ -22,12 +22,12 @@ namespace WaterLog_Backend.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "SenseIDIn",
-                table: "Segments");
+                name: "connectedMonitorID",
+                table: "TankMonitors");
 
             migrationBuilder.DropColumn(
-                name: "SenseIDOut",
-                table: "Segments");
+                name: "connectedMonitorType",
+                table: "TankMonitors");
         }
     }
 }

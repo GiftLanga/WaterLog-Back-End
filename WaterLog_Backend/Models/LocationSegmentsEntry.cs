@@ -10,13 +10,9 @@ namespace WaterLog_Backend.Models
     {
         public int Id { get; set; }
         public int LocationId { get; set; }
-        [ForeignKey("LocationId")]
-        public LocationsEntry LocationsEntry { get; set; }
         public int SegmentId { get; set; }
-        [ForeignKey("SegmentId")]
-        public SegmentsEntry segmentsEntry { get; set; }
+ 
     }
-
        
-    }
+ }
 
